@@ -1,9 +1,0 @@
-App.controllers.content = new Ext.controller({
-    index: function(options){
-	if (options && options.content){
-	    App.views.Content.update({content: options.content});
-	    App.views.Viewport.setActiveItem(App.views.Content);
-	}
-	
-    }
-})

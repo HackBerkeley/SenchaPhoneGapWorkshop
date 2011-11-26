@@ -1,7 +1,0 @@
-App.controllers.test = new Ext.Controller({
-    index: function(options){
-	App.views.viewport.setActiveItem({
-	    App.views.test
-	})
-    } 
-});

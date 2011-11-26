@@ -1,3 +1,0 @@
-app.models.Feed = Ext.regModel("app.models.Feed", {
-    fields:["name", "url"] 
-});

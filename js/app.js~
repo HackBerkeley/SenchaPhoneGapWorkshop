@@ -1,7 +1,0 @@
-Ext.regApplication({
-    name: 'App',
-    launch: function(){
-	this.views.viewport = new this.views.Viewport();
-    }
-});
-// implicitly: Ext.ns('App', 'App.views', 'App.stores', 'App.models', 'App.controllers' )

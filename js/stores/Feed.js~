@@ -1,3 +1,0 @@
-app.stores.contacts = new Ext.data.Store({
-    model: "app.models.FeedItem" 
-});
