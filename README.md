@@ -1,0 +1,1 @@
+[H@B "Mobile apps with Sencha Touch / PhoneGap"](https://www.facebook.com/events/289875327701276/)
