@@ -8,12 +8,15 @@ Setting up
 MVC model(briefly)
 -------------------
 
-Components
-----------
+Sencha Touch API
+----------------
 ### Panel
 ### Button
 ### List
 ### Tabs
+-
+### Data models
+### Stores
 
 
 Resources
