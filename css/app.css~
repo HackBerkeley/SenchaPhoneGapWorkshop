@@ -1,0 +1,7 @@
+.news-item .img{
+    float:left;
+}
+
+.news-item p{
+    float right;
+}

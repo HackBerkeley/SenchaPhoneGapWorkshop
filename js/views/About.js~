@@ -1,0 +1,9 @@
+App.views.About = Ext.extend(Ext.Panel,{
+    dockedItems:[{
+	xtype:'toolbar',
+	title:'About'
+    }],
+    initComponent: function(){
+	App.views.About.superclass.initComponent.apply(this, arguments);
+    }
+});

@@ -1,0 +1,7 @@
+App.views.Test = Ext.extend(Ext.panel, {
+    items:[
+	{
+	    html: 'Test'
+	}
+    ] 
+});

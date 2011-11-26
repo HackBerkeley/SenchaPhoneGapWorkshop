@@ -1,0 +1,17 @@
+App.views.Content = Ext.extend(Ext.Panel, {
+    dockedItems:[{
+	xtype:'toolbar',
+	title:'Content',
+	items:[
+	    {text:'Back',
+	     ui:'back',
+	     listeners:{
+		 'tap': function(){
+		     
+		 }
+	     }}
+	]
+    }],
+    styleHtmlContent:true,
+    scroll:'vertical'
+});
