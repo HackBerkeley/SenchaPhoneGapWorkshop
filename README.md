@@ -10,10 +10,11 @@ Include these in the `head` tags of your html file:
     <script src="http://cdn.sencha.io/touch/1.1.0/sencha-touch.js"></script>
     <link href="http://cdn.sencha.io/touch/1.1.0/resources/css/sencha-touch.css" rel="stylesheet" type="text/css" />
 
-PhoneGap (optional)
-------------------
+###PhoneGap (optional)
 PhoneGap creates a wrapper around your web app to make it into a native application. 
+
 It also provides access to native APIs (accelerometer, camera and all those cool shit) through javascript, though we won't be covering these in this session.
+
 Follow [these instructions](http://phonegap.com/start/#android) to set up the Android SDK and PhoneGap.
 
 Sencha Touch API
@@ -38,6 +39,7 @@ This automatically creates the namespaces `NameOfYourApp`, `NameOfYourApp.views`
 
 ### Stores
 Maintains a local cache of Model objects. Specifies how data is loaded and processed.
+
     var stores = new Ext.data.Store({
     	model: 'ModelName',
 	proxy:{
