@@ -1,10 +1,9 @@
 App.views.List = Ext.extend(Ext.Panel, {
-   
+    layout: 'fit',
     dockedItems: [{
 	xtype: 'toolbar',
 	title:'TechCrunch'
     }],
-    layout:'fit',
     items:[
 	{
 	    xtype:'list',
@@ -19,7 +18,6 @@ App.views.List = Ext.extend(Ext.Panel, {
 	    }
 	}
     ],
-    iconCls: 'favorites',
     initComponent:function(){
 	App.stores.techcrunch.load();
 	App.views.List.superclass.initComponent.apply(this, arguments);

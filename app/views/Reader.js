@@ -1,16 +1,9 @@
 App.views.Reader = Ext.extend(Ext.Panel,{
-    fullscreen:true,
-    tabBar:{
-	dock:'bottom',
-	layout:{
-	    pack:'center'
-	}
-    },
-    layout: 'card',
-    cardSwitchAnimation: 'slide',
     iconCls:'favorites',
     title:'Reader',
-    id:'readerCard',
+    fullscreen:true,
+    layout: 'card',
+    cardSwitchAnimation: 'slide',
     initComponent: function(){
 	Ext.apply(App.views, {
 	    list: new App.views.List(),
