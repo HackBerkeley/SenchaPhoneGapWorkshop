@@ -34,7 +34,7 @@ This automatically creates the namespaces `NameOfYourApp`, `NameOfYourApp.views`
     Ext.regModel('ModelName',{
 	fields:[
 		{name:'FieldName'}, // optional mapping:'MapToThisFieldInDataSource'
-	]
+		]
     })
 
 ### Stores
@@ -49,7 +49,7 @@ Maintains a local cache of Model objects. Specifies how data is loaded and proce
 			type:'json'
 		}
 	}
-    })
+	})
 
 ### UI Components
 
