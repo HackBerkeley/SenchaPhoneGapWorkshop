@@ -1,4 +1,4 @@
-App.views.Test = Ext.extend(Ext.Panel, {
+App.views.List = Ext.extend(Ext.Panel, {
    
     dockedItems: [{
 	xtype: 'toolbar',
@@ -22,7 +22,7 @@ App.views.Test = Ext.extend(Ext.Panel, {
     iconCls: 'favorites',
     initComponent:function(){
 	App.stores.techcrunch.load();
-	App.views.Test.superclass.initComponent.apply(this, arguments);
+	App.views.List.superclass.initComponent.apply(this, arguments);
     }
 });
 

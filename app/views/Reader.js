@@ -13,13 +13,12 @@ App.views.Reader = Ext.extend(Ext.Panel,{
     id:'readerCard',
     initComponent: function(){
 	Ext.apply(App.views, {
-	   //stuff 
-	    test: new App.views.Test(),
+	    list: new App.views.List(),
 	    content: new App.views.Content()
 	});
 	Ext.apply(this, {
 	    items:[
-		App.views.test,
+		App.views.list,
 		App.views.content
 	    ]
 	});

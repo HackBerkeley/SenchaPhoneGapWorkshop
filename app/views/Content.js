@@ -8,7 +8,7 @@ App.views.Content = Ext.extend(Ext.Panel, {
 	     listeners:{
 		 'tap': function(){
 		     Ext.dispatch({
-			 controller:App.controllers.test,
+			 controller:App.controllers.list,
 			 action:'index'
 		     });
 		 }
