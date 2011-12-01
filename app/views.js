@@ -27,7 +27,7 @@ App.views.Reader = Ext.extend(Ext.Panel,{
 	    App.views.content
 	];
 
-	App.views.Viewport.superclass.initComponent.apply(this, arguments);
+	App.views.Reader.superclass.initComponent.apply(this, arguments);
     }
 });
 
