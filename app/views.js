@@ -21,6 +21,7 @@ App.views.Reader = Ext.extend(Ext.Panel,{
     title:'Reader',
     iconCls:'favorites',
     cardSwitchAnimation: 'slide',
+    layout:'card',
     initComponent: function(){
 	this.items = [
 	    App.views.list,
