@@ -51,9 +51,6 @@ Maintains a local cache of Model objects. Specifies how data is loaded and proce
 	}
 	})
 
-### UI Components
-
-
 Resources
 ----------
 [Sencha Docs](http://docs.sencha.com/touch/1-1/)
